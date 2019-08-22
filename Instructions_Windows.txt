@@ -40,8 +40,8 @@ Save code
 
 Step 6:
 Go to Tools>Board 
-Select ìNodeMCU 1.0 (ESP-12E Module)
-Select Upload Speed ì115200î
+Select ‚ÄúNodeMCU 1.0 (ESP-12E Module)
+Select Upload Speed ‚Äú115200‚Äù
 Select Port
 
 Step 7:
@@ -55,12 +55,12 @@ Once the upload is complete, disconnect your ESP8266 board.
 Step 9:
 Connect the Nova PM SDS011 sensor to the ESP8266 board as follows:
 
-SDS011 ñ ESP8266
+SDS011 ‚Äì ESP8266
 ------------------
-TDX    ñ D7 (GPIO 13)
-RXD    ñ D6 (GPIO 12)
-GND    ñ GND
-5V     ñ Vin
+TXD    ‚Äì D7 (GPIO 13)
+RXD    ‚Äì D6 (GPIO 12)
+GND    ‚Äì GND
+5V     ‚Äì Vin
 
 Step 10:
 Reconnect your ESP8266 board to your computer via USB and it should run automatically
